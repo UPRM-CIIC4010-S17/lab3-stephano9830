@@ -25,13 +25,24 @@
 	                        //Paint the background
 	                        g.setColor(Color.DARK_GRAY);
 	                        g.fillRect(x1, y1, width + 1, height + 1);
-	                        //Draw a border
+	                        
+//	                        //Draw a border
+//	                        g.setColor(Color.YELLOW);
+//	                        g.drawRect(x1, y1, width , height);
+//	                        
+//	                        g.setColor(Color.BLUE);
+//	                        g.drawRect(x1+5, y1+5, width-10 , height-10);
+//	                        
+//	                        //Draw a lines
+//	                        g.setColor(Color.WHITE);
+//	                        g.drawLine(x1, y1, x2, y2);
+//	                        
+//	                        g.setColor(Color.RED);
+//	                        g.drawLine(x1+ width, y1, x2-width, y2);
+	                        //Draw Oval
 	                        g.setColor(Color.YELLOW);
-	                        g.drawRect(x1, y1, width , height);
-	                        //Draw a border
-	                        g.setColor(Color.BLUE);
-	                        g.drawRect(x1+5, y1+5, width-10 , height-10);
-
+	                        g.drawOval(x1, y1, width, height);
+//to finish
 	            }
 				}
 	
