@@ -39,10 +39,10 @@
 //	                        
 //	                        g.setColor(Color.RED);
 //	                        g.drawLine(x1+ width, y1, x2-width, y2);
+	                        
 	                        //Draw Oval
 	                        g.setColor(Color.YELLOW);
-	                        g.drawOval(x1, y1, width, height);
-//to finish
+	                        g.fillOval((getWidth()-55)/2, (getHeight()-55)/2, 55, 55);
 	            }
 				}
 	
